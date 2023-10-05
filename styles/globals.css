@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.swiper {
+    width: 200px;
+    height: 360px;
+}
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+}
+@media (min-width: 1024px) {
+    .swiper {
+        width: 440px;
+        height: 340px;
+    }
+}
