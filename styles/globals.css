@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 .swiper {
-    width: 200px;
-    height: 360px;
+    width: 180px;
+    height: 320px;
 }
 .swiper-slide {
     display: flex;
@@ -14,7 +14,7 @@
 }
 @media (min-width: 1024px) {
     .swiper {
-        width: 440px;
-        height: 340px;
+        width: 340px;
+        height: 320px;
     }
 }

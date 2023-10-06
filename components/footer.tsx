@@ -36,7 +36,7 @@ export default function Footer() {
                         </p>
                     ))}
                 </div>
-                <form className="flex flex-col gap-2 w-96 items-end">
+                <form className="flex flex-col gap-2 w-80 items-end lg:w-96">
                     <Input
                         value={value}
                         isRequired

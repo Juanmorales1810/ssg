@@ -9,6 +9,10 @@ import {
 import { Button } from "@nextui-org/button";
 import { Image } from "@nextui-org/image";
 import { useRouter } from "next/navigation";
+import NextLink from "next/link";
+import { Link } from "@nextui-org/link";
+import { WhatsAppIcon } from "@/components/icons";
+import { button as buttonStyles } from "@nextui-org/theme";
 
 export default function Window(porps: any) {
     const items = porps.content;
@@ -54,7 +58,7 @@ export default function Window(porps: any) {
                                     </p>
                                 </div>
                             </ModalBody>
-                            <ModalFooter>
+                            <ModalFooter className="mb-4">
                                 <Button
                                     color="danger"
                                     variant="light"
@@ -62,17 +66,20 @@ export default function Window(porps: any) {
                                 >
                                     Close
                                 </Button>
-                                <Button
-                                    color="primary"
+                                <Link
+                                    isExternal
+                                    as={NextLink}
                                     onPress={onClose}
-                                    onClick={() =>
-                                        route.push(
-                                            `https://api.whatsapp.com/send?phone=542646629632&text=Quiero%20informaci%C3%B3n%20sobre%20${items.title}!!😊😊`
-                                        )
-                                    }
+                                    href={`https://api.whatsapp.com/send?phone=542646629632&text=Quiero%20informaci%C3%B3n%20sobre%20${items.title}!!😊😊`}
+                                    className={buttonStyles({
+                                        color: "secondary",
+                                        radius: "full",
+                                        variant: "shadow",
+                                    })}
                                 >
-                                    Contact
-                                </Button>
+                                    <WhatsAppIcon />
+                                    WhatsApp
+                                </Link>
                             </ModalFooter>
                         </>
                     )}

@@ -25,7 +25,7 @@ export default function Cards() {
                     disableOnInteraction: false,
                 }}
                 modules={[EffectCards, Autoplay]}
-                className="mySwiper"
+                className="mySwiper animate-fade-left animate-once animate-delay-[100ms] animate-ease-in-out animate-normal"
             >
                 {list.map((item, index) => (
                     <SwiperSlide key={index}>
@@ -37,7 +37,7 @@ export default function Cards() {
                                     radius="lg"
                                     width="100%"
                                     alt={item.title}
-                                    className="object-cover h-[300px] w-[200px] lg:w-full"
+                                    className="object-cover h-[260px] w-[200px] lg:w-full"
                                     src={item.img}
                                 />
                             </CardBody>

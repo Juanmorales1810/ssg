@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@lottiefiles/react-lottie-player": "^3.5.3",
     "@nextui-org/button": "^2.0.0",
     "@nextui-org/card": "^2.0.11",
     "@nextui-org/code": "2.0.0",
@@ -50,6 +51,7 @@
     "typescript": "5.0.4"
   },
   "devDependencies": {
-    "daisyui": "^3.5.1"
+    "daisyui": "^3.5.1",
+    "tailwindcss-animated": "^1.0.1"
   }
 }
