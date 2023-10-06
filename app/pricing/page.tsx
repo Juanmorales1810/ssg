@@ -1,6 +1,6 @@
 import Table from "@/components/table";
-
-export const metadata: any = {
+import { Metadata } from "next";
+export const metadata: Metadata = {
     title: "Pricing",
 };
 

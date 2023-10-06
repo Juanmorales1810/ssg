@@ -52,7 +52,6 @@ export default function Footer() {
                             validationState === "invalid" &&
                             "Please enter a valid email"
                         }
-                        validationState={validationState}
                         onValueChange={setValue}
                         startContent={
                             <MailFilledIcon className="text-2xl text-default-400 pointer-events-none flex-shrink-0" />

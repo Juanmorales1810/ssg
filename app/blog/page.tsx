@@ -1,5 +1,8 @@
-"use client";
 import Cardb from "@/components/cardb";
+import { Metadata } from "next";
+export const metadata: Metadata = {
+    title: "Blog",
+};
 
 export const blogPosts = [
     {

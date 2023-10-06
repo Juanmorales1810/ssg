@@ -1,5 +1,6 @@
 import Cards from "@/components/swiper";
-export const metadata: any = {
+import { Metadata } from "next";
+export const metadata: Metadata = {
     title: "About",
 };
 
