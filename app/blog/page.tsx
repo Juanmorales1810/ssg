@@ -4,7 +4,13 @@ export const metadata: Metadata = {
     title: "Blog",
 };
 
-export const blogPosts = [
+export const blogPosts: {
+    titulo: string;
+    description: string;
+    image: string;
+    slug: string;
+    lorem: string;
+}[] = [
     {
         titulo: "Optimiza tu Código con las Mejores Prácticas",
         description:
