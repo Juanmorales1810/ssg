@@ -1,4 +1,3 @@
-"use client";
 import { blogPosts } from "../page";
 import { title } from "@/components/primitives";
 import { Image } from "@nextui-org/image";
@@ -12,7 +11,6 @@ interface BlogParams {
 }
 
 export default function BlogPage({ params }: { params: BlogParams }) {
-    console.log(params.id);
     const foundBlog = blogPosts.find((blog) => blog.slug === params.id);
     if (!foundBlog) {
         return (

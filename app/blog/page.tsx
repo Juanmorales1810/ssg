@@ -1,4 +1,3 @@
-import { title } from "@/components/primitives";
 import Cardb from "@/components/cardb";
 export const metadata: any = {
     title: "Blog",
