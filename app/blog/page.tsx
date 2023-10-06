@@ -1,3 +1,4 @@
+"use client";
 import Cardb from "@/components/cardb";
 export const metadata: any = {
     title: "Blog",

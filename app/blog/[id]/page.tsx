@@ -1,3 +1,4 @@
+"use client";
 import { blogPosts } from "../page";
 import { title } from "@/components/primitives";
 import { Image } from "@nextui-org/image";
