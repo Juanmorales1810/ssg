@@ -2,7 +2,7 @@
 import { useRouter } from "next/navigation";
 import { Card, CardHeader, CardBody } from "@nextui-org/card";
 import { Image } from "@nextui-org/image";
-import { blogPosts } from "../app/blogs/page";
+import { blogPosts } from "../config/blogs-db";
 
 export default function Cardb() {
     const route = useRouter();
@@ -27,7 +27,7 @@ export default function Cardb() {
                             alt={post.titulo}
                             className="object-cover rounded-xl items-end"
                             src={post.image}
-                            width={270}
+                            width={300}
                         />
                     </CardBody>
                 </Card>
