@@ -1,7 +1,7 @@
 "use client";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import { list } from "@/app/page";
+import { list } from "@/config/list-db";
 import { Image } from "@nextui-org/image";
 import { Card, CardBody, CardFooter } from "@nextui-org/card";
 

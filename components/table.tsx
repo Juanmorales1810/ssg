@@ -1,5 +1,5 @@
 "use client";
-import { list } from "../app/page";
+import { list } from "@/config/list-db";
 import Window from "@/components/modal";
 
 export default function Table() {
