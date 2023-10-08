@@ -1,12 +1,7 @@
+"use client";
 import Cardb from "@/components/cardb";
 
-export const blogPosts: {
-    titulo: string;
-    description: string;
-    image: string;
-    slug: string;
-    lorem: string;
-}[] = [
+export const blogPosts = [
     {
         titulo: "Optimiza tu Código con las Mejores Prácticas",
         description:
