@@ -7,8 +7,8 @@ export const metadata: Metadata = {
 export default function AboutPage() {
     return (
         <div className="flex flex-col h-[calc(100vh-5rem)] w-full justify-around items-center gap-4 px-6 py-8 md:py-10 lg:flex-row">
-            <div className="w-80 lg:w-96">
-                <h1 className=" text-7xl pb-6 text-center font-semibold drop-shadow-md bg-gradient-to-r from-violet-600 via-purple-400 to-purple-800 bg-clip-text text-transparent dark:bg-gradient-to-r dark:from-pink-300 dark:via-purple-400 dark:to-red-200 dark:bg-clip-text dark:text-transparent sm:font-bold lg:text-left animate-fade-right animate-once animate-delay-[100ms] animate-ease-in-out animate-normal">
+            <div className="w-80 lg:w-96 xl:w-[600px]">
+                <h1 className=" text-7xl xl:text-8xl pb-6 text-center font-semibold drop-shadow-md bg-gradient-to-r from-violet-600 via-purple-400 to-purple-800 bg-clip-text text-transparent dark:bg-gradient-to-r dark:from-pink-300 dark:via-purple-400 dark:to-red-200 dark:bg-clip-text dark:text-transparent sm:font-bold lg:text-left animate-fade-right animate-once animate-delay-[100ms] animate-ease-in-out animate-normal">
                     Somos SSG
                 </h1>
                 <p className="text-black text-lg pb-3 text-center lg:text-left dark:text-white animate-fade-right animate-once animate-delay-[200ms] animate-ease-in-out animate-normal">

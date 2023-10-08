@@ -15,7 +15,7 @@ export const siteConfig = {
         },
         {
             label: "Blog",
-            href: "/blog",
+            href: "/blogs",
         },
         {
             label: "Nosotros",
@@ -33,7 +33,7 @@ export const siteConfig = {
         },
         {
             label: "Blog",
-            href: "/blog",
+            href: "/blogs",
         },
         {
             label: "Nosotros",

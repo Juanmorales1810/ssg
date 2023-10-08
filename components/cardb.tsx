@@ -2,7 +2,7 @@
 import { useRouter } from "next/navigation";
 import { Card, CardHeader, CardBody } from "@nextui-org/card";
 import { Image } from "@nextui-org/image";
-import { blogPosts } from "../app/blog/page";
+import { blogPosts } from "../app/blogs/page";
 
 export default function Cardb() {
     const route = useRouter();
@@ -12,7 +12,7 @@ export default function Cardb() {
                 <Card
                     key={post.titulo}
                     isPressable
-                    onClick={() => route.push(`/blog/${post.slug}`)}
+                    onClick={() => route.push(`/blogs/${post.slug}`)}
                     className="py-4 w-60 h-72"
                 >
                     <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">

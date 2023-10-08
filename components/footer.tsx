@@ -6,17 +6,6 @@ import { Input } from "@nextui-org/input";
 import { MailFilledIcon } from "@/components/icons";
 import { Button } from "@nextui-org/button";
 export default function Footer() {
-    const [value, setValue] = React.useState("");
-
-    const validateEmail = (value: string) =>
-        value.match(/^[A-Z0-9._%+-]+@[A-Z0-9.-]+.[A-Z]{2,4}$/i);
-
-    const validationState = React.useMemo(() => {
-        if (value === "") return undefined;
-
-        return validateEmail(value) ? "valid" : "invalid";
-    }, [value]);
-
     return (
         <footer className="flex flex-col items-center justify-center w-full h-96 pt-10">
             <div className="flex flex-col justify-around items-center w-full gap-10 md:flex-row md:gap-52">
@@ -38,21 +27,11 @@ export default function Footer() {
                 </div>
                 <form className="flex flex-col gap-2 w-80 items-end lg:w-96">
                     <Input
-                        value={value}
                         isRequired
                         type="email"
                         label="Email"
-                        validationState="invalid"
                         placeholder="you@example.com"
                         labelPlacement="inside"
-                        color={
-                            validationState === "invalid" ? "danger" : "default"
-                        }
-                        errorMessage={
-                            validationState === "invalid" &&
-                            "Please enter a valid email"
-                        }
-                        onValueChange={setValue}
                         startContent={
                             <MailFilledIcon className="text-2xl text-default-400 pointer-events-none flex-shrink-0" />
                         }
@@ -61,12 +40,9 @@ export default function Footer() {
                         isRequired
                         description=""
                         type="Text"
-                        label="Name"
-                        placeholder="Your name"
+                        label="Nombre"
+                        placeholder="Tu nombre"
                         labelPlacement="inside"
-                        // startContent={
-                        //     <MailFilledIcon className="text-2xl text-default-400 pointer-events-none flex-shrink-0" />
-                        // }
                     />
                     <Button
                         type="submit"
