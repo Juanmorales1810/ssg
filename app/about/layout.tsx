@@ -1,5 +1,12 @@
 import Lottie from "@/components/lottie";
 
+import { Metadata } from "next";
+export const metadata: Metadata = {
+    title: "About",
+    description:
+        "En nuestra tienda de videojuegos, encontrarás un mundo de emocionantes aventuras y experiencias virtuales que te llevarán a nuevas dimensiones.",
+};
+
 export default function AboutLayout({
     children,
 }: {

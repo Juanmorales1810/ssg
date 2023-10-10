@@ -17,10 +17,35 @@ export const metadata: Metadata = {
         { media: "(prefers-color-scheme: light)", color: "white" },
         { media: "(prefers-color-scheme: dark)", color: "black" },
     ],
+    keywords: ["Videogames", "Juegos", "Tienda"],
     icons: {
         icon: "/favicon.ico",
         shortcut: "/favicon-16x16.png",
         apple: "/apple-touch-icon.png",
+    },
+    creator: "Juan Morales",
+    formatDetection: {
+        email: false,
+        address: false,
+        telephone: false,
+    },
+    openGraph: {
+        title: siteConfig.name,
+        description: siteConfig.description,
+        images: [
+            {
+                url: "/public/images/metada/image-meta.png",
+                width: 800,
+                height: 600,
+                alt: "Simple shelves global",
+            },
+            {
+                url: "/public/images/metada/image-meta.png",
+                width: 1800,
+                height: 1600,
+                alt: "Simple shelves global",
+            },
+        ],
     },
 };
 

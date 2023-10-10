@@ -1,40 +1,23 @@
-# Next.js & NextUI Template
+# Simple shelves global
 
-This is a template for creating applications using Next.js 13 (app directory) and NextUI (v2).
+Simple shelves global (SSG) es un pseudo e-commerce de videojuegos con botones llamando a la acción. La página cuenta con una sección de lista de precios, con una sección de blogs para mejorar el SEO y una sección de about con información relevante.
 
 ## Technologies Used
 
-- [Next.js 13](https://nextjs.org/docs/getting-started)
-- [NextUI v2](https://nextui.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Tailwind Variants](https://tailwind-variants.org)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [next-themes](https://github.com/pacocoursey/next-themes)
+-   [Next.js 13](https://nextjs.org/docs/getting-started)
+-   [NextUI v2](https://nextui.org/)
+-   [Daisy UI](https://daisyui.com/)
+-   [Swiper](https://swiperjs.com/)
+-   [Tailwind CSS](https://tailwindcss.com/)
+-   [Tailwind Variants](https://tailwind-variants.org)
+-   [TypeScript](https://www.typescriptlang.org/)
+-   [Framer Motion](https://www.framer.com/motion/)
+-   [next-themes](https://github.com/pacocoursey/next-themes)
 
-## How to Use
+## Demo
 
-
-### Use the template with create-next-app
-
-To create a new project based on this template using `create-next-app`, run the following command:
-
-```bash
-npx create-next-app -e https://github.com/nextui-org/next-app-template
-```
-
-### Install dependencies
-
-```bash
-npm install
-```
-
-### Run the development server
-
-```bash
-npm run dev
-```
+https://ssg-new.vercel.app/
 
 ## License
 
-Licensed under the [MIT license](https://github.com/nextui-org/next-app-template/blob/main/LICENSE).
+Licencia [MIT](https://choosealicense.com/licenses/mit/)
