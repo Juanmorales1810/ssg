@@ -30,22 +30,15 @@ export const metadata: Metadata = {
         telephone: false,
     },
     openGraph: {
+        images: ["/images/metadata/image-meta.png"],
         title: siteConfig.name,
         description: siteConfig.description,
-        images: [
-            {
-                url: "/public/images/metada/image-meta.png",
-                width: 800,
-                height: 600,
-                alt: "Simple shelves global",
-            },
-            {
-                url: "/public/images/metada/image-meta.png",
-                width: 1800,
-                height: 1600,
-                alt: "Simple shelves global",
-            },
-        ],
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: siteConfig.name,
+        description: siteConfig.description,
+        images: ["/images/metadata/image-meta.png"],
     },
 };
 
