@@ -30,7 +30,7 @@ export const metadata: Metadata = {
         telephone: false,
     },
     openGraph: {
-        images: ["/images/metadata/image-meta.png"],
+        images: ["/images/metada/image-meta.png"],
         title: siteConfig.name,
         description: siteConfig.description,
     },
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
         card: "summary_large_image",
         title: siteConfig.name,
         description: siteConfig.description,
-        images: ["/images/metadata/image-meta.png"],
+        images: ["/images/metada/image-meta.png"],
     },
 };
 
